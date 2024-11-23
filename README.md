@@ -1,5 +1,5 @@
-# Yolov5 Real-time Inference using Streamlit
-A web interface for real-time yolo inference using streamlit. It supports CPU and GPU inference, supports both images and videos and uploading your own custom models.
+# Drone Forensic YOLOFOR using Streamlit
+A web interface for real-time YOLOFOR for drone forensic propose inference using streamlit. It supports CPU and GPU inference, supports both images and videos and uploading your own custom models.
 
 <img src="output.gif" alt="demo of the dashboard" width="800"/>
 
