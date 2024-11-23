@@ -155,7 +155,6 @@ def load_model(path, device):
     return model_
 
 
-@st.experimental_singleton
 def download_model(url):
     model_file = wget.download(url, out="models")
     return model_file
