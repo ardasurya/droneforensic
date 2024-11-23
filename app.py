@@ -1,6 +1,5 @@
 import glob
 import streamlit as st
-import wget
 from PIL import Image
 import torch
 import cv2
