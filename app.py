@@ -6,7 +6,6 @@ import torch
 import cv2
 import os
 import time
-import ultralytics
 
 st.set_page_config(layout="wide")
 
