@@ -155,10 +155,6 @@ def load_model(path, device):
     return model_
 
 
-def download_model(url):
-    model_file = wget.download(url, out="models")
-    return model_file
-
 
 def get_user_model():
     model_src = st.sidebar.radio("Model source", ["file upload", "url"])
