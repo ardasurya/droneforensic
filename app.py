@@ -148,7 +148,6 @@ def infer_image(img, size=None):
     return image
 
 
-@st.experimental_singleton
 def load_model(path, device):
     model_ = torch.hub.load('ultralytics/yolov5', 'custom', path=path, force_reload=True)
     model_.to(device)
