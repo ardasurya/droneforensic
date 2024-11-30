@@ -201,7 +201,7 @@ def main():
         st.sidebar.markdown("---")
 
     # check if model file is available
-    if not os.path.isfile(cfg_model_path):
+    if not os.path.isfile('models/yolov5s.pt'):
         st.warning("Model file not available!!!, please added to the model folder.", icon="⚠️")
     else:
         # device options
